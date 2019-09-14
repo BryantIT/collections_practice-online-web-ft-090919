@@ -30,6 +30,6 @@ def find_a(array)
   end
 end
 
-def sun_array(array)
+def sum_array(array)
   array.inject(0){|num, n| num+n}
 end
