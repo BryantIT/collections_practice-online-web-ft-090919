@@ -31,4 +31,5 @@ def find_a(array)
 end
 
 def sun_array(array)
-  array.inject(0) do |num, n| num+n
+  array.inject(0){|num, n| num+n}
+end
